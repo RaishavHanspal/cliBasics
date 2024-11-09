@@ -1,0 +1,11 @@
+[package]
+name = "cliBasics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+
+[build-dependencies]
+clap = "4.5.20"
+clap-markdown = "0.1.4"
